@@ -4,4 +4,5 @@ export interface IScannerStyles {
     container?: CSSProperties;
     video?: CSSProperties;
     finderBorder?: number;
+    finder?: CSSProperties;
 }
