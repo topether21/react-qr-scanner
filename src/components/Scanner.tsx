@@ -327,6 +327,7 @@ export function Scanner(props: IScannerProps) {
                             setIsCameraActive(false);
                         }}
                         border={styles?.finderBorder}
+                        styles={styles?.finder}
                     />
                 )}
                 {children}
